@@ -1,0 +1,16 @@
+/*Overall site*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/*Intro page, aka index.html*/
+
+/*firstPage.html*/
+#introtext {
+    font-family: 'Libre-Baskerville', serif;
+    font-size: 16px;
+    padding-right: 15%;
+}
+#itemText {
+    font-family: 'Libre-Baskerville', serif;
+}
