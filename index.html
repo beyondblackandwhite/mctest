@@ -1,1 +1,46 @@
-
+<html>
+<head>
+    <title>Site Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <style>
+    /*Overall site*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/*Intro page, aka index.html*/
+body {
+    opacity: 1; 
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0; 
+    transition: none; 
+}
+html {
+    background-color: black;
+}
+/*firstPage.html*/
+#introtext {
+    font-family: 'Libre-Baskerville', serif;
+    font-size: 16px;
+    padding-right: 15%;
+}
+#itemText {
+    font-family: 'Libre-Baskerville', serif;
+}
+    </style>
+</head>
+    <body background="http://libnews.syr.edu/wp-content/uploads/Weiner.jpg">
+        <a href="https://www.google.com/"><div style="padding-top:25%; padding-left:45%; font-size:200%; color:white;">ENTER</div></a>  
+        <script type="text/javascript">document.body.className += ' fade-out';
+        $(function() {
+    $('body').removeClass('fade-out');
+        });
+        </script>
+    </body>
+</html>
